@@ -1,0 +1,25 @@
+.w960{
+    font-size: 14px;
+    margin-bottom: 42px;
+}
+.w960 h1{
+    font-size: 25px;
+    margin: 68px 0 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.w960 p{
+    color: #FF8C00;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 35px 0 8px;
+}
+.w960 span{
+    font-size: 14px;
+    display: block;
+    line-height: 38px;
+    color: #444;
+}
+.w960 img{
+    margin-bottom: 15px;
+}
