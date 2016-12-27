@@ -1,6 +1,618 @@
 serData = [
     {
         span:"A",
-
+        p:[
+            {
+                a:"A 阿尔法罗密欧",
+                href:"#"
+            },
+            {
+                a:"ALFA",
+                href:"#"
+            },
+            {
+                a:"156",
+                href:"#"
+            },
+            {
+                a:"ALFA",
+                href:"#"
+            },
+            {
+                a:"166",
+                href:"#"
+            },
+            {
+                a:"ALFA",
+                href:"#"
+            },
+            {
+                a:"GT",
+                href:"#"
+            },
+        ],
+        p:[
+            {
+                a:"A 阿斯顿・马丁",
+                href:"#"
+            },
+            {
+                a:"V8",
+                href:"#"
+            },
+            {
+                a:"Vantage",
+                href:"#"
+            },
+            {
+                a:"Vanquish",
+                href:"#"
+            },
+            {
+                a:"Rapide",
+                href:"#"
+            },
+            {
+                a:"阿斯顿・马丁DB9",
+                href:"#"
+            },
+            {
+                a:"阿斯顿・马丁DBS",
+                href:"#"
+            },
+            {
+                a:"拉共达Taraf",
+                href:"#"
+            },
+            {
+                a:"Virage",
+                href:"#"
+            },
+            {
+                a:"V12 Vantage",
+                href:"#"
+            },
+            {
+                a:"V12 Zagato",
+                href:"#"
+            },
+        ],
+        p:[
+            {
+                a:"A 奥迪奥迪A6L",
+                href:"#"
+            },
+            {
+                a:"奥迪A4L",
+                href:"#"
+            },
+            {
+                a:"奥迪Q7",
+                href:"#"
+            },
+            {
+                a:"奥迪A3(进口)",
+                href:"#"
+            },
+            {
+                a:"奥迪A4(进口)",
+                href:"#"
+            },
+            {
+                a:"奥迪A6(进口)",
+                href:"#"
+            },
+            {
+                a:"奥迪A8",
+                href:"#"
+            },
+            {
+                a:"奥迪TT",
+                href:"#"
+            },
+            {
+                a:"奥迪Q5(进口)",
+                href:"#"
+            },
+            {
+                a:"奥迪A5",
+                href:"#"
+            },
+            {
+                a:"奥迪R8",
+                href:"#"
+            },
+            {
+                a:"奥迪Q5",
+                href:"#"
+            },
+            {
+                a:"奥迪S8",
+                href:"#"
+            },
+            {
+                a:"奥迪S5",
+                href:"#"
+            },
+            {
+                a:"奥迪RS 5",
+                href:"#"
+            },
+            {
+                a:"奥迪Q3(进口)",
+                href:"#"
+            },
+            {
+                a:"奥迪A7",
+                href:"#"
+            },
+            {
+                a:"奥迪A1",
+                href:"#"
+            },
+            {
+                a:"奥迪RS 6",
+                href:"#"
+            },
+            {
+                a:"奥迪Q3",
+                href:"#"
+            },
+            {
+                a:"奥迪A3",
+                href:"#"
+            },
+            {
+                a:"奥迪100",
+                href:"#"
+            },
+            {
+                a:"奥迪A4",
+                href:"#"
+            },
+            {
+                a:"奥迪S3",
+                href:"#"
+            },
+            {
+                a:"奥迪S6",
+                href:"#"
+            },
+            {
+                a:"奥迪A6",
+                href:"#"
+            },
+            {
+                a:"奥迪RS 7",
+                href:"#"
+            },
+            {
+                a:"奥迪TTS",
+                href:"#"
+            },
+        ],
+        p:[
+            {
+                a:"宝斯通",
+                href:"#"
+            },
+            {
+                a:"A 安凯客车",
+                href:"#"
+            },
+        ],
+    },
+    {
+        span:"B",
+        p:[
+            {
+                a:"B 宝骏宝骏630",
+                href:"#"
+            },
+            {
+                a:"宝骏310",
+                href:"#"
+            },
+            {
+                a:"乐驰",
+                href:"#"
+            },
+            {
+                a:"宝骏330",
+                href:"#"
+            },
+            {
+                a:"宝骏560",
+                href:"#"
+            },
+            {
+                a:"宝骏610",
+                href:"#"
+            },
+            {
+                a:"宝骏730",
+                href:"#"
+            },
+        ],
+        P:[
+            {
+                a:"B 宝马",
+                href:"#"
+            },
+            {
+                a:"宝马3系",
+                href:"#"
+            },
+            {
+                a:"宝马5系",
+                href:"#"
+            },
+            {
+                a:"宝马3系(进口)",
+                href:"#"
+            },
+            {
+                a:"宝马5系(进口)",
+                href:"#"
+            },
+            {
+                a:"宝马7系",
+                href:"#"
+            },
+            {
+                a:"宝马X3",
+                href:"#"
+            },
+            {
+                a:"宝马X5",
+                href:"#"
+            },
+            {
+                a:"宝马X6",
+                href:"#"
+            },
+            {
+                a:"宝马X1(进口)",
+                href:"#"
+            },
+            {
+                a:"宝马M2",
+                href:"#"
+            },
+            {
+                a:"宝马2系",
+                href:"#"
+            },
+            {
+                a:"宝马6系",
+                href:"#"
+            },
+            {
+                a:"宝马1系",
+                href:"#"
+            },
+            {
+                a:"宝马X1",
+                href:"#"
+            },
+            {
+                a:"宝马M3",
+                href:"#"
+            },
+            {
+                a:"宝马M5",
+                href:"#"
+            },
+            {
+                a:"宝马M6",
+                href:"#"
+            },
+            {
+                a:"宝马X5 M",
+                href:"#"
+            },
+            {
+                a:"宝马X6 M",
+                href:"#"
+            },
+            {
+                a:"宝马Z4",
+                href:"#"
+            },
+            {
+                a:"宝马2系旅行车",
+                href:"#"
+            },
+            {
+                a:"宝马4系",
+                href:"#"
+            },
+            {
+                a:"宝马3系GT",
+                href:"#"
+            },
+            {
+                a:"宝马2系Gran",
+                href:"#"
+            },
+            {
+                a:"Tourer",
+                href:"#"
+            },
+            {
+                a:"宝马X4",
+                href:"#"
+            },
+            {
+                a:"宝马1系M",
+                href:"#"
+            },
+            {
+                a:"宝马5系GT",
+                href:"#"
+            },
+            {
+                a:"宝马i3",
+                href:"#"
+            },
+            {
+                a:"宝马i8",
+                href:"#"
+            },
+            {
+                a:"宝马2系旅行车（进口）",
+                href:"#"
+            },
+            {
+                a:"宝马M4",
+                href:"#"
+            },
+        ],
+        P:[
+            {
+                a:"B 保时捷",
+                href:"#"
+            },
+            {
+                a:"Cayman",
+                href:"#"
+            },
+            {
+                a:"保时捷911",
+                href:"#"
+            },
+            {
+                a:"Macan",
+                href:"#"
+            },
+            {
+                a:"Panamera",
+                href:"#"
+            },
+            {
+                a:"卡宴",
+                href:"#"
+            },
+            {
+                a:"保时捷918",
+                href:"#"
+            },
+            {
+                a:"保时捷718",
+                href:"#"
+            },
+            {
+                a:"Boxster",
+                href:"#"
+            },
+        ],
+        P:[
+            {
+                a:"B 北京汽车",
+                href:"#"
+            },
+            {
+                a:"北京(BJ)20",
+                href:"#"
+            },
+            {
+                a:"北京汽车E系列",
+                href:"#"
+            },
+            {
+                a:"北京80",
+                href:"#"
+            },
+            {
+                a:"北京40",
+                href:"#"
+            },
+        ],
+    },
+    {
+        span:"C",
+        p:[
+            {
+                a:"C 昌河",
+                href:"#"
+            },
+            {
+                a:"福瑞达",
+                href:"#"
+            },
+            {
+                a:"爱迪尔",
+                href:"#"
+            },
+            {
+                a:"福运",
+                href:"#"
+            },
+            {
+                a:"昌河Q35",
+                href:"#"
+            },
+            {
+                a:"昌河Q25",
+                href:"#"
+            },
+            {
+                a:"海豚",
+                href:"#"
+            },
+            {
+                a:"昌铃王",
+                href:"#"
+            },
+            {
+                a:"福瑞达M50",
+                href:"#"
+            },
+        ],
+        p:[
+            {
+                a:"C 长安",
+                href:"#"
+            },
+            {
+                a:"奔奔",
+                href:"#"
+            },
+            {
+                a:"杰勋",
+                href:"#"
+            },
+            {
+                a:"志翔",
+                href:"#"
+            },
+            {
+                a:"悦翔",
+                href:"#"
+            },
+            {
+                a:"长安CX20",
+                href:"#"
+            },
+            {
+                a:"长安CX30",
+                href:"#"
+            },
+            {
+                a:"逸动",
+                href:"#"
+            },
+            {
+                a:"长安CS35",
+                href:"#"
+            },
+            {
+                a:"睿骋",
+                href:"#"
+            },
+            {
+                a:"长安CX70",
+                href:"#"
+            },
+            {
+                a:"长安CS15",
+                href:"#"
+            },
+            {
+                a:"奔奔i",
+                href:"#"
+            },
+            {
+                a:"悦翔V3",
+                href:"#"
+            },
+            {
+                a:"悦翔V5",
+                href:"#"
+            },
+            {
+                a:"奔奔MINI",
+                href:"#"
+            },
+            {
+                a:"悦翔V7",
+                href:"#"
+            },
+            {
+                a:"奔奔LOVE",
+                href:"#"
+            },
+            {
+                a:"长安CS75",
+                href:"#"
+            },
+        ],
     }
-]
+];
+
+var series = document.getElementById("series");
+var Fragment = document.createDocumentFragment();
+(function createserData(option){//遍历数据
+    function creatBox(tag){
+        return document.createElement(tag);
+    }
+    function apChild(option1,option2){
+        return option1.appendChild(option2);
+    }
+    function demo(y){
+        var span = creatBox("span"),
+            div = creatBox("div"),
+            a = creatBox("a"),
+            p = creatBox("p");
+        span.innerHTML=serData[y].span;
+        apChild(div,span);
+        for(var i = 0 ,
+                b = 0 ;
+                b<serData[y].p.length&&
+                i<serData[y].p[b].a.length;
+                i++,
+                b++){
+            aTEXT = document.createTextNode(serData[y].p[i].a);
+            var Htnl=a.innerHTML,
+                Href=a.href;
+            Htnl=serData[y].p[b].a;
+            Href=serData[y].p[b].href;
+            //apChild(a,aTEXT);
+            apChild(a,Htnl);
+            apChild(p,a);
+            apChild(div,p);
+            apChild(Fragment,div);
+            series.appendChild(Fragment);
+        }
+    }
+    for(var y = 0 ; y<serData.length;y++){
+        demo(y)
+    }
+}());
+//serData.forEach(function(item){
+//    Fragment.appendChild(createserData(item));
+//});
+
+
+
+
+
+
+
+
+
+
+/*
+var series = document.getElementById("series")
+function demo(){
+    function createserData(option){
+        var a = document.createElement("span");
+        a.innerText = option.span;
+        return a
+    }
+    serData.forEach(function(item){
+        series.appendChild(createserData(item));// 创造很多的span,并且传入series
+    });
+}
+demo();
+*/

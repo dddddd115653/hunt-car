@@ -1,0 +1,11 @@
+#series{
+    display: table;
+}
+#series span{
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 26px;
+    width: 44px;
+    border: 1px solid #999;
+}

@@ -113,13 +113,13 @@ var mapData = [
     }
 ];
 function createsitemap(options){
-    function create(tag){
+    function createBox(tag){
         return document.createElement(tag);
     }
-    var a1 = create("a"),
-        a2 = create("a"),
-        h2 = create("h2"),
-        div = create("div");
+    var a1 = createBox("a"),
+        a2 = createBox("a"),
+        h2 = createBox("h2"),
+        div = createBox("div");
     a1.innerHTML=options.site;
     a2.innerHTML=options.a;
     a1.href="#";
@@ -137,5 +137,5 @@ function createsitemap(options){
 var Fragment = document.createDocumentFragment();
 mapData.forEach(function(item){
     Fragment.appendChild(createsitemap(item));
-})
+});
 document.getElementById("sitemap").appendChild(Fragment);
