@@ -1748,7 +1748,6 @@ function createserData(option){//遍历数据
                 a.innerText=item2.a;
                 a.href= item2.href;
                 return apChild(div1,a)
-                //apChild(pBOX,div1);
             });
             apChild(div2,div1);
             apChild(pBOX,div2);
