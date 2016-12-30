@@ -6,12 +6,12 @@
 }
 .w960 h1{
     font-size: 25px;
-    font-weight: 600;
     text-align: center;
     margin: 70px 0 15px 0;
 }
 .w960 span{
-    color: #FF8C00;
+    font-size: 16px;
+    color: #FF581A;
 }
 .w960 p{
     margin:15px 0 20px;

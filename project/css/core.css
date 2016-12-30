@@ -14,9 +14,6 @@ a{
 img{
 	border:none;
 }
-h1, h2, h3, h4, h5, h6{
-	font-weight:normal;
-}
 em, i{
 	font-style:normal;
 }
@@ -37,7 +34,6 @@ body{
 	margin: 0 auto;
 	width: 960px;
 	padding:0 120px;
-
 }
 .icon{
 	background-image:url(../image/icon.png);
@@ -50,7 +46,6 @@ body{
 h1{
 	font-size: 20px;
 	margin: 20px 0 30px 0;
-	font-weight: bold;
 }
 /*顶部导航*/
 .topNav{
@@ -94,7 +89,7 @@ h1{
 	margin-left:-1px;
 	width:360px;
 	height:235px;
-	border:1px solid rgb(255, 88, 26);
+	border:1px solid #FF581A;
 	display:none;
 }
 .topNav a{
@@ -108,7 +103,7 @@ h1{
 	vertical-align:middle;
 }
 .topNav a.anchor:hover, .top .sign:hover{
-	color:rgb(255, 88, 26);
+	color:#FF581A;
 }
 .topNav div.anchor{
 	display:inline;
@@ -198,7 +193,7 @@ h1{
 	margin-left: 11px;
 }
 .bottom .map a:hover{
-	color: #FF571A;
+	color: #FF581A;
 }
 /*侧边栏*/
 .fixedNav{
@@ -219,7 +214,7 @@ h1{
 .fixedNav div{
 	height:34px;
 	overflow:hidden;
-	background-color:rgb(255, 88, 26);
+	background-color:#FF581A;
 	text-indent:14px;
 	font-size:14px;
 	line-height:34px;
@@ -238,26 +233,40 @@ h1{
 }
 .fixedNav .anchor:hover{
 	background-color:white;
+	color: #FF581A;
 }
 .fixedNav .anchor .icon{
 	margin:10px 0 8px 18px;
 	display:block;
 	width:16px;
 	height:16px;
-	background-size:0;
-	background-color:black;
 }
 .fixedNav .anchor .favor{
-	background-position:;
+	background: url("../image/icon2.png");
+}
+.fixedNav .anchor:hover .favor{
+	background-position:0 -20px;
 }
 .fixedNav .anchor .consult{
-	background-position:;
+	background: url("../image/icon2.png");
+	background-position:-20px 0;
+}
+.fixedNav .anchor:hover .consult{
+	background-position:-20px -20px;
 }
 .fixedNav .anchor .sell{
-	background-position:;
+	background: url("../image/icon2.png");
+	background-position:-40px -40px;
+}
+.fixedNav .anchor:hover .sell{
+	background-position:-40px -60px;
 }
 .fixedNav .anchor .feedback{
-	background-position:;
+	background: url("../image/icon2.png");
+	background-position:-80px 0;
+}
+.fixedNav .anchor:hover .feedback{
+	background-position:-80px -20px;
 }
 .fixedNav .anchor span{
 	margin-left:16px;

@@ -1716,27 +1716,19 @@ serData = [
         ],
     },
 ];
-var series = document.getElementById("series");
-var Fragment = document.createDocumentFragment();
-function creatBox(tag){ //创建盒子
-    return document.createElement(tag);
-}
-function apChild(option1,option2){  //子级放入父级
-    return option1.appendChild(option2);
-}
 function createserData(option){//遍历数据
     Data = option.forEach(function(item){
-        var div = creatBox("div"),
-            span = creatBox("span"),
-            pBOX = creatBox("p"),
+        var div = createBox("div"),
+            span = createBox("span"),
+            pBOX = createBox("p"),
             p = item.p;
         span.innerText = item.span;
         apChild(div,span);
         p.forEach(function(item1){
-            var h3 = creatBox("h3"),
-                div2 = creatBox("div"),
-                a = creatBox("a"),
-                div1 = creatBox("div"),
+            var h3 = createBox("h3"),
+                div2 = createBox("div"),
+                a = createBox("a"),
+                div1 = createBox("div"),
                 ah = item1.h3,
                 aaa = item1.aa;
             a.innerText = ah.a;
@@ -1744,7 +1736,7 @@ function createserData(option){//遍历数据
             apChild(h3,a);
             apChild(div2,h3);
             aaa.forEach(function(item2){
-                var a = creatBox("a");
+                var a = createBox("a");
                 a.innerText=item2.a;
                 a.href= item2.href;
                 return apChild(div1,a)
@@ -1755,6 +1747,6 @@ function createserData(option){//遍历数据
         });
         return apChild(Fragment,div);
     });
-    apChild(series,Fragment);
+    apChild(document.getElementById("series"),Fragment);
 };
 createserData(serData);
